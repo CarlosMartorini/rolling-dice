@@ -53,3 +53,5 @@ onde minhaBarra é a variável contendo o DOM element da div e larguraDaBarra é
 ## Envio
 
 Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, por favor, envie a url de seu Gitlab Pages (ex: https://nomedeusuario.gitlab.io/s_rolling-dice/) e, no GitLab, adicione o grupo `ka-br-<sua-turma>-correcoes` como membro do seu projeto com a permissão "Reporter".
+
+

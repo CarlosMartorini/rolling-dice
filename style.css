@@ -1,0 +1,9 @@
+label{
+    display:none;
+}
+
+.div-bar2{
+    height: 20px;
+    background-color: darkgreen;
+    border: 2px solid balck;
+}
