@@ -61,10 +61,60 @@ createUl.appendChild(sumNumber11);
 sumNumber12.innerText = `12: ${outputSumDices[12]}`;
 createUl.appendChild(sumNumber12);
 
-// const getBarResult = document.getElementById('bar-result');
-// const createDivBar2 = document.createElement('div');
-// createDivBar2.innerText = `${outputSumDices[2]}`;
-// getBarResult.appendChild(createDivBar2);
-// createDivBar2.style.width = `${outputSumDices[2]}px`;
+const getBarResult = document.getElementById('bar-result');
 
-// minhaBarra.style.width = `${larguraDaBarra}px`;
+const createDivBar2 = document.createElement('div');
+createDivBar2.classList.add('bar-result');
+getBarResult.appendChild(createDivBar2);
+createDivBar2.style.width = `${outputSumDices[2]}px`;
+
+const createDivBar3 = document.createElement('div');
+createDivBar3.classList.add('bar-result');
+getBarResult.appendChild(createDivBar3);
+createDivBar3.style.width = `${outputSumDices[3]}px`;
+
+const createDivBar4 = document.createElement('div');
+createDivBar4.classList.add('bar-result');
+getBarResult.appendChild(createDivBar4);
+createDivBar4.style.width = `${outputSumDices[4]}px`;
+
+const createDivBar5 = document.createElement('div');
+createDivBar5.classList.add('bar-result');
+getBarResult.appendChild(createDivBar5);
+createDivBar5.style.width = `${outputSumDices[5]}px`;
+
+const createDivBar6 = document.createElement('div');
+createDivBar6.classList.add('bar-result');
+getBarResult.appendChild(createDivBar6);
+createDivBar6.style.width = `${outputSumDices[6]}px`;
+
+const createDivBar7 = document.createElement('div');
+createDivBar7.classList.add('bar-result');
+getBarResult.appendChild(createDivBar7);
+createDivBar7.style.width = `${outputSumDices[7]}px`;
+
+const createDivBar8 = document.createElement('div');
+createDivBar8.classList.add('bar-result');
+getBarResult.appendChild(createDivBar8);
+createDivBar8.style.width = `${outputSumDices[8]}px`;
+
+const createDivBar9 = document.createElement('div');
+createDivBar9.classList.add('bar-result');
+getBarResult.appendChild(createDivBar9);
+createDivBar9.style.width = `${outputSumDices[9]}px`;
+
+const createDivBar10 = document.createElement('div');
+createDivBar10.classList.add('bar-result');
+getBarResult.appendChild(createDivBar10);
+createDivBar10.style.width = `${outputSumDices[10]}px`;
+
+const createDivBar11 = document.createElement('div');
+createDivBar11.classList.add('bar-result');
+getBarResult.appendChild(createDivBar11);
+createDivBar11.style.width = `${outputSumDices[11]}px`;
+
+const createDivBar12 = document.createElement('div');
+createDivBar12.classList.add('bar-result');
+getBarResult.appendChild(createDivBar12);
+createDivBar12.style.width = `${outputSumDices[12]}px`;
+

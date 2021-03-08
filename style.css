@@ -1,9 +1,76 @@
+:root{
+    --color-title: #5318c2;
+    --color-border: #ccc;
+    --color-font: #616161;
+    --color-background-bar: #009900;
+    --color-border-bar: #000;
+    --color-background-mobile: #ddc9f1;
+    --color-background-desktop: #f4f8ce;
+    --background: #ffebf6;
+}
+
+body{
+    background-color: var(--background);
+}
+
 label{
     display:none;
 }
 
-.div-bar2{
+ul li{
+    list-style:square;
+}
+
+header{
+    text-align: center;
+    color: var(--color-title);
+}
+
+ul{
+    margin: 0 auto;
+    font-size: 18px;
+    color: var(--color-font);
+    border: 1px solid var(--color-border);
+    max-width: 200px;
+    text-align: justify;
+    background-color: var(--color-background-mobile);
+}
+
+#bar-result{
+    border: 1px solid var(--color-border);
+    margin: 0 auto;
+    max-width: 240px;
+    background-color: var(--color-background-mobile);
+}
+
+.bar-result{
     height: 20px;
-    background-color: darkgreen;
-    border: 2px solid balck;
+    margin: 5px;
+    background-color: var(--color-background-bar);
+    border: 1px solid var(--color-border-bar);
+}
+
+@media screen and (min-width: 768px){
+    
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    ul{
+        width: 60px;
+        height: 302px;
+        text-align: end;
+        background-color: var(--color-background-desktop);
+        padding-right: 5px;
+    }
+    ul li{
+        padding: 3px 0;
+    }
+    #bar-result{
+        margin: initial;
+        width: 400px;
+        background-color: var(--color-background-desktop);
+    }
 }
